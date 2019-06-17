@@ -15,7 +15,7 @@ const helloWorldType = new GraphQLObjectType({
 const queryType = new GraphQLObjectType({
     name: 'Query',
     fields: {
-        helloword: {
+        helloworld: {
             type: helloWorldType,
             resolve(){
                 return {texto: "Hello World"};
