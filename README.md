@@ -1,0 +1,1 @@
+# Prátca GraphQL - Hello World
